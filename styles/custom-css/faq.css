@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+:root {
+    --primary-color: #084482;
+    --secondary-color: #E5E5E5;
+}
+
+body {
+    font-family: 'poppins';
+    scroll-behavior: smooth !important;
+}
+
+.header-sec {
+    background: var(--secondary-color);
+    height: 320px;
+}
+
+.pop-sec {
+    background: var(--secondary-color);
+}
+
+.questions-sec {
+    background: var(--primary-color);
+}
+
+.fot-sec {
+    background: var(--primary-color);
+}
+
+.prepend img {
+    width: 20px;
+}
+
+.panel-body {
+    background: white;
+    color: #084482;
+    padding: 18px;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default>.panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title>a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #B2B2B2;
+}
+
+.panel-title>a:hover {
+    color: #084482;
+}
+
+.panel-title>a:active {
+    color: #084482;
+}
+
+.more-less {
+    float: right;
+    color: #084482;
+}
+
+.rotate{
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+}
+
+.rotate.down{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #EEEEEE;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
