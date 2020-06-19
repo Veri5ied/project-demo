@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Tab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- vertical tab -->
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Lorem1')" id="defaultOpen">Lorem, ipsum.</button>
+            <button class="tablinks" onclick="openTab(event, 'Lorem2')">Lorem, ipsum.</button>
+            <button class="tablinks" onclick="openTab(event, 'Lorem3')">Lorem, ipsum.</button>
+        </div>
+
+        <div id="Lorem1" class="tabcontent">
+            <h3>Lorem.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, tempore corporis, magni reiciendis
+                aspernatur facilis error at ut harum ad recusandae provident consectetur adipisci dignissimos!
+                Voluptates adipisci iste accusantium harum aut voluptas nulla odio quo officia minus unde cum
+                dignissimos commodi, sint, deleniti architecto alias corrupti nihil recusandae assumenda autem.</p>
+        </div>
+
+        <div id="Lorem2" class="tabcontent">
+            <h3>Lorem.</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid commodi corrupti error, maiores
+                voluptate temporibus neque? Et, voluptatem repellendus? Architecto eius deserunt voluptas fuga
+                praesentium consequuntur aut possimus tenetur vel excepturi odio, repellat ipsa tempore commodi vitae
+                veritatis impedit quos blanditiis dolorem nisi repellendus doloribus. Voluptate quo vero enim facere.
+            </p>
+        </div>
+
+        <div id="Lorem3" class="tabcontent">
+            <!-- Accordion -->
+            <div class="bs-example">
+                <h3>Lorem.</h3>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseOne"><i class="fa fa-plus"></i> Lorem ipsum dolor sit
+                                    amet.</button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem error delectus
+                                    magnam
+                                    deleniti distinctio harum at, dignissimos alias voluptatem. Rerum incidunt tenetur
+                                    quam
+                                    ipsam excepturi sunt quisquam fugiat eveniet veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseTwo"><i class="fa fa-plus"></i> Lorem ipsum dolor sit
+                                    amet.</button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit
+                                    magnam deserunt eveniet eos nesciunt. Dolore, quos, corporis hic voluptas modi
+                                    inventore
+                                    voluptatem nulla perspiciatis, tempora eveniet eos fugit? Culpa.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree"><i class="fa fa-plus"></i> Lorem ipsum dolor sit
+                                        amet.</button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                                        reprehenderit
+                                        magnam deserunt eveniet eos nesciunt. Dolore, quos, corporis hic voluptas modi
+                                        inventore
+                                        voluptatem nulla perspiciatis, tempora eveniet eos fugit? Culpa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFour"><i class="fa fa-plus"></i> Lorem ipsum dolor sit
+                                        amet.</button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                                        reprehenderit
+                                        magnam deserunt eveniet eos nesciunt. Dolore, quos, corporis hic voluptas modi
+                                        inventore
+                                        voluptatem nulla perspiciatis, tempora eveniet eos fugit? Culpa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFive"><i class="fa fa-plus"></i> Lorem ipsum dolor sit
+                                        amet.</button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                                        reprehenderit
+                                        magnam deserunt eveniet eos nesciunt. Dolore, quos, corporis hic voluptas modi
+                                        inventore
+                                        voluptatem nulla perspiciatis, tempora eveniet eos fugit? Culpa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
